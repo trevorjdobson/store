@@ -19,7 +19,7 @@ var firstAndPike = {
   },
   calcCookiesSoldHour: function() {
     for(var j = 0; j < hours.length; j++) {
-      this.cookiesSoldHour.push(Math.round(this.avgCookieSoldHour * this.randCustHour[j]));
+      this.cookiesSoldHour.push(Math.round(this.aveCookieSoldHour * this.randCustHour[j]));
       console.log(this.cookiesSoldHour[j]);
     }
   },
@@ -57,7 +57,7 @@ var seaTac = {
   },
   calcCookiesSoldHour: function() {
     for(var j = 0; j < hours.length; j++) {
-      this.cookiesSoldHour.push(Math.round(this.avgCookieSoldHour * this.randCustHour[j]));
+      this.cookiesSoldHour.push(Math.round(this.aveCookieSoldHour * this.randCustHour[j]));
       console.log(this.cookiesSoldHour[j]);
     }
   },
@@ -94,7 +94,7 @@ var seattleCenter = {
   },
   calcCookiesSoldHour: function() {
     for(var j = 0; j < hours.length; j++) {
-      this.cookiesSoldHour.push(Math.round(this.avgCookieSoldHour * this.randCustHour[j]));
+      this.cookiesSoldHour.push(Math.round(this.aveCookieSoldHour * this.randCustHour[j]));
       console.log(this.cookiesSoldHour[j]);
     }
   },
@@ -131,7 +131,7 @@ var capitolHill = {
   },
   calcCookiesSoldHour: function() {
     for(var j = 0; j < hours.length; j++) {
-      this.cookiesSoldHour.push(Math.round(this.avgCookieSoldHour * this.randCustHour[j]));
+      this.cookiesSoldHour.push(Math.round(this.aveCookieSoldHour * this.randCustHour[j]));
       console.log(this.cookiesSoldHour[j]);
     }
   },
@@ -168,7 +168,7 @@ var alki = {
   },
   calcCookiesSoldHour: function() {
     for(var j = 0; j < hours.length; j++) {
-      this.cookiesSoldHour.push(Math.round(this.avgCookieSoldHour * this.randCustHour[j]));
+      this.cookiesSoldHour.push(Math.round(this.aveCookieSoldHour * this.randCustHour[j]));
       console.log(this.cookiesSoldHour[j]);
     }
   },
