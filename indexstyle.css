@@ -5,6 +5,7 @@ h1 {
   font-family: 'Permanent Marker', cursive;
   text-align: center;
   font-size: 72px;
+
 }
 h2, h3, ul {
   text-align: center;
@@ -15,4 +16,8 @@ h2 {
 }
 ul {
   font-size: 12px;
+}
+.aboutus {
+  padding: 50px;
+  font-size: 48px;
 }
