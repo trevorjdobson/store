@@ -6,6 +6,20 @@
   </head>
   <body>
     <h1>Store Location's Estimated Sales</h1>
+    <form id="store-form">
+      <fieldset>
+        <legend>ADD A NEW LOCATION</legend>
+        <label for="storename">Location Name</label>
+        <input name="storename" type="text" />
+        <label for="mincust">Minimum Customers per Hour</label>
+        <input name="mincust" type="text" />
+        <label for="maxcust">Maximum Customers per Hour</label>
+        <input name="maxcust" type="text" />
+        <label for="avecookie">Average Cookies Sold per Hour</label>
+        <input name="avecookie" type="text" />
+        <button type="submit">Creat New Location</button>
+      </fieldset>
+    </form>
     <div>
       <table id="sales"></table>
     </div>
