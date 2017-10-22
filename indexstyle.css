@@ -1,0 +1,23 @@
+body {
+  background-color: Salmon;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 72px;
+
+}
+h2, h3, ul {
+  text-align: center;
+  font-family: 'Russo One', serif;
+}
+h2 {
+  font-size: 32px;
+}
+ul {
+  font-size: 12px;
+}
+.aboutus {
+  padding: 50px;
+  font-size: 48px;
+}
